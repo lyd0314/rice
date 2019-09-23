@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    >
+
+<LinearLayout
+    android:layout_weight="5"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+
+    >
+    <TextView
+        android:id="@+id/title"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="100px"
+        android:text="垃圾分類易物"
+        android:textColor="@color/colorAbsoluteBlack"
+        android:gravity="center"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="5.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="登錄"
+            android:textColor="@color/colorButtonText"
+            android:background="@drawable/button_onclick"
+            android:textSize="120px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+<TextView
+    android:layout_weight="1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:text="-----------有限公司"
+    android:textColor="@color/colorAbsoluteBlack"
+    android:textSize="60px"
+    android:id="@+id/company"
+    />
+        <TextView
+            android:textColor="@color/colorAbsoluteBlack"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="50px"
+            android:text="聯系電話111****1234123"
+            android:id="@+id/phone"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

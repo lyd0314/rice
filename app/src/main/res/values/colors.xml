@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorDialogContent2">#314672</color>
+    <color name="colorHomeButton2">#adb9e5</color>
+    <color name="colorAbsoluteBlack">#000000</color>
+    <color name="colorButtonText">#D8DDF1</color>
+    <color name="cplorTheme">#70C7EE</color>
+    <color name="cplorTime">#F3E74D44</color>
+    <color name="cplorUnderLine">#918B8B</color>
+</resources>
